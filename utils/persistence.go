@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package utils
 
 import (
 	"os"
 	"path/filepath"
 
-	"gopkg.in/securityfirst/tent.v3/component"
+	"github.com/snk.fork.tent.v3/component"
 )
 
 func WriteCmp(base string, c component.Component) error {

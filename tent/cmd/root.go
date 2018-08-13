@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright © 2017 NAME HERE <EMAIL ADDRESS>
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,9 +24,9 @@ import (
 	"log"
 	"os"
 
-	"gopkg.in/securityfirst/tent.v3/auth"
-	"gopkg.in/securityfirst/tent.v3/repo"
-	"gopkg.in/securityfirst/tent.v3/transifex"
+	"github.com/snk.fork.tent.v3/auth"
+	"github.com/snk.fork.tent.v3/repo"
+	"github.com/snk.fork.tent.v3/transifex"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

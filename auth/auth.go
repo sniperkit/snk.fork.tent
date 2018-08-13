@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package auth
 
 import (
@@ -8,8 +13,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/go-github/github"
+	"github.com/snk.fork.tent.v3/models"
 	"golang.org/x/oauth2"
-	"gopkg.in/securityfirst/tent.v3/models"
 )
 
 const (

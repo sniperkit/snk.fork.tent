@@ -1,4 +1,7 @@
-package: gopkg.in/securityfirst/tent.v3
+# Sniperkit-Bot
+# - Status: analyzed
+
+package: github.com/snk.fork.tent.v3
 import:
 - package: github.com/google/go-github
 - package: golang.org/x/oauth2

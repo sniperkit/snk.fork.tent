@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package repo
 
 import (
@@ -7,15 +12,14 @@ import (
 	"log"
 	"sync"
 
+	"github.com/google/go-github/github"
+	"github.com/snk.fork.tent.v3/component"
+	"github.com/snk.fork.tent.v3/models"
+	"golang.org/x/oauth2"
 	git "gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/plumbing"
 	"gopkg.in/src-d/go-git.v4/plumbing/object"
 	"gopkg.in/src-d/go-git.v4/storage/memory"
-
-	"github.com/google/go-github/github"
-	"golang.org/x/oauth2"
-	"gopkg.in/securityfirst/tent.v3/component"
-	"gopkg.in/securityfirst/tent.v3/models"
 )
 
 var (

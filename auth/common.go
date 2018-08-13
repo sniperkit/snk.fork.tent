@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package auth
 
 import (
@@ -9,8 +14,7 @@ import (
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
-	"gopkg.in/securityfirst/tent.v3/models"
-
+	"github.com/snk.fork.tent.v3/models"
 	"golang.org/x/oauth2"
 	lib "golang.org/x/oauth2/github"
 )

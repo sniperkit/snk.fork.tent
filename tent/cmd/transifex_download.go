@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package cmd
 
 import (
@@ -12,12 +17,9 @@ import (
 	"time"
 
 	"github.com/fatih/color"
-
-	"gopkg.in/securityfirst/tent.v3/utils"
-
-	"gopkg.in/securityfirst/tent.v3/component"
-
-	"gopkg.in/securityfirst/tent.v3/transifex"
+	"github.com/snk.fork.tent.v3/component"
+	"github.com/snk.fork.tent.v3/transifex"
+	"github.com/snk.fork.tent.v3/utils"
 	"github.com/spf13/cobra"
 )
 

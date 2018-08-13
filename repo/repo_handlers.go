@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package repo
 
 import (
@@ -11,8 +16,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/go-github/github"
-	"gopkg.in/securityfirst/tent.v3/component"
-	"gopkg.in/securityfirst/tent.v3/models"
+	"github.com/snk.fork.tent.v3/component"
+	"github.com/snk.fork.tent.v3/models"
 )
 
 var (

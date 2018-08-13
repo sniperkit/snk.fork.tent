@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package tent
 
 import (
@@ -6,8 +11,8 @@ import (
 
 	"github.com/cenkalti/log"
 	"github.com/gin-gonic/gin"
-	"gopkg.in/securityfirst/tent.v3/auth"
-	"gopkg.in/securityfirst/tent.v3/repo"
+	"github.com/snk.fork.tent.v3/auth"
+	"github.com/snk.fork.tent.v3/repo"
 )
 
 const (
